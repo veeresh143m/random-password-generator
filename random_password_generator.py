@@ -1,3 +1,5 @@
+'''randome password generator'''
+'''using random module and string module'''
 import random
 import string
 def gen_password(length=12,use_upper=True,use_lower=True,use_digits=True,use_special=True):
