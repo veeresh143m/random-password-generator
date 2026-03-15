@@ -19,3 +19,4 @@ def gen_password(length=12,use_upper=True,use_lower=True,use_digits=True,use_spe
     password=' '.join(random.choice(set_char) for i in range(length))
     return password
 print(gen_password(12))
+''' program finished now'''
